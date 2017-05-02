@@ -4,6 +4,37 @@
 * {
 	font-family: Helvetica, Arial, sans-serif;
 }
+nav {
+	background: black;
+	height: 60px;
+	margin: -15px;
+}
+ul {
+	list-style-type: none;
+}
+li {
+	float: left;
+	padding: 15px;
+	display: block;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+a:link {
+	color: white;
+	text-decoration: none;
+}
+a:visited {
+	color: gray;
+}
+a:hover {
+	color: lightgreen;
+}
+a:active {
+}
+h1 {
+	clear: both;
+	margin-top: 50px;
+}
 h2 {
 	font-weight: 200;
 	margin-top: -20px;
@@ -13,17 +44,19 @@ tr:nth-child(even) {
 }
 th {
 	text-align: left;
-	padding: 3px 30px;
+	padding: 3px 15px;
 }
 td {
 	text-align: center;
-	padding: 3px 30px;
+	padding: 3px 10px;
 	border-left: 1px solid lightgray;
 	border-right: 1px solid lightgray;
 }
 table {
 	border-collapse: collapse;
 	border-bottom: 1px solid lightgray;
+	font-size: 12px;
+	margin-top: 150px;
 }
 tr {
 	border-left: 1px solid lightgray;
@@ -34,4 +67,9 @@ tr:nth-child(2) {
 .image {
 	border-right: 0px solid lightgray;
 	border-left: 0px solid lightgray;
+	vertical-align: bottom;
+}
+span {
+	font-weight: 200;
+	font-style: italic;
 }
