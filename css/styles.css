@@ -1,9 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/*font family throughout page*/
 * {
 	font-family: Helvetica, Arial, sans-serif;
 }
+/*navigation bar css*/
 nav {
 	background: black;
 	height: 60px;
@@ -18,6 +20,7 @@ li {
 	display: block;
 	line-height: 30px;
 	text-transform: uppercase;
+	text-align: center auto;
 }
 a:link {
 	color: white;
@@ -30,7 +33,9 @@ a:hover {
 	color: lightgreen;
 }
 a:active {
+	color: lightblue;
 }
+/*headings css*/
 h1 {
 	clear: both;
 	margin-top: 50px;
@@ -39,6 +44,8 @@ h2 {
 	font-weight: 200;
 	margin-top: -20px;
 }
+/*colored text chart css*/
+/*nth child for variable css*/
 tr:nth-child(even) {
 	background-color: #E7DCA8;
 }
@@ -56,7 +63,7 @@ table {
 	border-collapse: collapse;
 	border-bottom: 1px solid lightgray;
 	font-size: 12px;
-	margin-top: 150px;
+	margin-top: 100px;
 }
 tr {
 	border-left: 1px solid lightgray;
@@ -64,12 +71,16 @@ tr {
 tr:nth-child(2) {
 	border-top: 1px solid lightgray;
 }
+span {
+	font-weight: 200;
+	font-style: italic;
+}
+/*table images css*/
+tr:nth-child(1) {
+	border: none;
+}
 .image {
 	border-right: 0px solid lightgray;
 	border-left: 0px solid lightgray;
 	vertical-align: bottom;
-}
-span {
-	font-weight: 200;
-	font-style: italic;
 }
