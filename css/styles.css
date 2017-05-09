@@ -84,3 +84,7 @@ tr:nth-child(1) {
 	border-left: 0px solid lightgray;
 	vertical-align: bottom;
 }
+/*form css*/
+form {
+	margin-top: 300px;
+}
