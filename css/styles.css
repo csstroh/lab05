@@ -30,13 +30,11 @@ a:visited {
 	color: gray;
 }
 a:hover {
-	color: lightgreen;
-}
-a:active {
 	color: lightblue;
 }
 /*headings css*/
 h1 {
+	color: lightblue;
 	clear: both;
 	margin-top: 50px;
 }
@@ -47,7 +45,7 @@ h2 {
 /*colored text chart css*/
 /*nth child for variable css*/
 tr:nth-child(even) {
-	background-color: darkgray;
+	background-color: lightblue;
 }
 th {
 	text-align: left;
@@ -86,83 +84,31 @@ tr:nth-child(1) {
 }
 /*form css*/
 form {
-	border: 3px solid lightgreen;
-	padding: 40px;
+	border: 3px solid lightblue;
+	padding: 0px 20px 20px 40px;
 	margin: 75px 50px 50px 50px;
+	width: 740px;
 }
-.first {
-	font-family: 'Roboto Condensed', sans-serif;
-	float: left;
-	padding-right: 20px;
-}
-.last {
+form p {
 	font-family: 'Roboto Condensed', sans-serif;
 }
-.gender {
-	font-family: 'Roboto Condensed', sans-serif;
-}
-.address {
-	font-family: 'Roboto Condensed', sans-serif;
-	float: left;
-	padding-right: 20px;
-}
-.city {
-	font-family: 'Roboto Condensed', sans-serif;
-	float: left;
-	padding-right: 20px;
-}
-.state {
-	font-family: 'Roboto Condensed', sans-serif;
-	float: left;
-	padding-right: 20px;
-}
-.city {
-	font-family: 'Roboto Condensed', sans-serif;
-	float: left;
-	padding-right: 20px;
-}
-.zip {
-	font-family: 'Roboto Condensed', sans-serif;
-}
-.phone {
-	font-family: 'Roboto Condensed', sans-serif;
-	clear: both;
-}
-.dash {
-	display: inline;
+.head {
+	font-size: 40px;
 }
 .short {
 	width: 25px;
 	display: inline;
 }
-.colors {
-	font-family: 'Roboto Condensed', sans-serif;
-	margin-bottom: 30px;
-}
-.email {
-	font-family: 'Roboto Condensed', sans-serif;
-}
-.card {
-	margin-top: 25px;
-	padding-right: 10px;
-}
-.number {
-	font-family: 'Roboto Condensed', sans-serif;
-}
-.exp {
-	font-family: 'Roboto Condensed', sans-serif;
-}
-.cvv {
-	font-family: 'Roboto Condensed', sans-serif;
-	margin-bottom: 50px;
-}
 hr {
 	display: block;
     height: 2px;
     border: 0;
-    border-top: 2px solid lightgreen;
-    padding: 0; 
+    border-top: 2px solid lightblue;
+    margin-top: 25px; 
 }
-.submit {
-	clear: both;
+.logo {
+	padding-right: 10px;
+}
+.card {
+	padding: 20px 0px 30px 0px;
 }
