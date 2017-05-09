@@ -1,0 +1,27 @@
+Last login: Tue May  2 14:46:06 on ttys000
+grc-canada:~ csstroh$ cd desktop/338_03_L05_Csstroh
+grc-canada:338_03_L05_Csstroh csstroh$ git log
+commit 272265bce7b3b51f35ac9a3b6ab36cb6747c71da
+Author: Chandler Stroh <csstroh@calpoly.edu>
+Date:   Tue May 2 14:45:49 2017 -0700
+
+    Add comments
+
+commit 6b1b7d63950a31309202aaaf6f5474d000bb8800
+Author: Chandler Stroh <csstroh@calpoly.edu>
+Date:   Tue May 2 14:30:59 2017 -0700
+
+    Format Nav
+
+commit 2e12192f7ec342a6d80d94a1e34a42b81b03cd0f
+Author: Chandler Stroh <csstroh@calpoly.edu>
+Date:   Tue May 2 13:48:33 2017 -0700
+
+    Style Table
+
+commit 14081c7dce794eaf319ff03fc569023561e7c678
+Author: Chandler Stroh <csstroh@calpoly.edu>
+Date:   Tue May 2 13:26:35 2017 -0700
+
+    Format Table
+:

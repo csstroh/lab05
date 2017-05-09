@@ -47,7 +47,7 @@ h2 {
 /*colored text chart css*/
 /*nth child for variable css*/
 tr:nth-child(even) {
-	background-color: #E7DCA8;
+	background-color: darkgray;
 }
 th {
 	text-align: left;
