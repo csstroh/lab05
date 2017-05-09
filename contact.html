@@ -3,6 +3,7 @@
 <head>
 
 <link href="css/styles.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 
 <meta charset="UTF-8">
 <title>Untitled Document</title>
@@ -25,28 +26,28 @@
 
 <form>
 
-<p>First Name:
+<p class="first">First Name:
 <input type="text" name="first name" maxlength="35" />
 </p>
 
-<p>Last Name:
+<p class="last">Last Name:
 <input type="text" name="first name" maxlength="35" />
 </p>
 
-<p>Gender:
+<p class="gender">Gender:
 <input type="radio" name="gender" value="male" checked="checked" /> Male
 <input type="radio" name="gender" value="female" /> Female
 </p>
 
-<p>Address:
+<p class="address">Address:
 <input type="text" name="street" maxlength="35" />
 </p>
 
-<p>City:
+<p class="city">City:
 <input type="text" name="city" maxlength="35" />
 </p>
 
-<p>State:
+<p class="state">State:
 <select name="state">
 	<option value="AL">Alabama</option>
 	<option value="AK">Alaska</option>
@@ -103,60 +104,59 @@
 </select>
 </p>
 
-<p>Zip:
-<input type="text" name="zip" maxlength="35" />
+<p class="zip">Zip:
+<input type="text" name="zip" maxlength="5" />
 </p>
 
-<p>Phone:
-<input type="text" name="phone" maxlength="3" />
-<p>-</p>
-<input type="text" name="phone" maxlength="3" />
-<p>-</p>
-<input type="text" name="phone" maxlength="4" />
+<p class="phone">Phone:
+<input class="short" type="text" name="phone" maxlength="3" />
+<input class="short" type="text" name="phone" maxlength="3" />
+<input class="short" type="text" name="phone" maxlength="4" />
 </p>
 
-<p>Email:
+<p class="email">Email:
 <input type="text" name="email" maxlength="35" />
 </p>
 
-<p>Your 5 favorite colors:
-<input type="checkbox" name="colors" value="red" /> Red
-<input type="checkbox" name="colors" value="pink" /> Pink
-<input type="checkbox" name="colors" value="burgundy" /> Burgundy
-<input type="checkbox" name="colors" value="fuschia" /> Fuschia
-<input type="checkbox" name="colors" value="lightorange" /> Light Orange
-<input type="checkbox" name="colors" value="burntorange" /> Burnt Orange
-<input type="checkbox" name="colors" value="yellow" /> Yellow
-<input type="checkbox" name="colors" value="lightgreen" /> Light Green
-<input type="checkbox" name="colors" value="forrestgreen" /> Forest Green
-<input type="checkbox" name="colors" value="teal" /> Teal
-<input type="checkbox" name="colors" value="light blue" /> Light Blue
-<input type="checkbox" name="colors" value="navy" /> Navy
-<input type="checkbox" name="colors" value="lavender" /> Lavender
-<input type="checkbox" name="colors" value="deeppurple" /> Deep Purple
-<input type="checkbox" name="colors" value="blsck" /> Balck
-<input type="checkbox" name="colors" value="white" /> White
-<input type="checkbox" name="colors" value="gray" /> Gray
+<p class="colors">Your 5 favorite colors:
+<input class="option" type="checkbox" name="colors" value="red" /> Red
+<input class="option" type="checkbox" name="colors" value="pink" /> Pink
+<input class="option" type="checkbox" name="colors" value="burgundy" /> Burgundy
+<input class="option" type="checkbox" name="colors" value="fuschia" /> Fuschia
+<input class="option" type="checkbox" name="colors" value="lightorange" /> Light Orange
+<input class="option" type="checkbox" name="colors" value="burntorange" /> Burnt Orange
+<input class="option" type="checkbox" name="colors" value="lightgreen" /> Light Green
+<input class="option" type="checkbox" name="colors" value="forrestgreen" /> Forest Green
+<input class="option" type="checkbox" name="colors" value="teal" /> Teal
+<input class="option" type="checkbox" name="colors" value="light blue" /> Light Blue
+<input class="option" type="checkbox" name="colors" value="navy" /> Navy
+<input class="option" type="checkbox" name="colors" value="lavender" /> Lavender
+<input class="option" type="checkbox" name="colors" value="deeppurple" /> Deep Purple
+<input class="option" type="checkbox" name="colors" value="blsck" /> Balck
+<input class="option" type="checkbox" name="colors" value="white" /> White
+<input class="option" type="checkbox" name="colors" value="gray" /> Gray
 </p>
 
-<img src="images/mc.png" alt="mastercard logo" width="50px">
-<img src="images/american.png" alt="american express logo" width="50px">
-<img src="images/visa.png" alt="visa logo" width="50px">
+<hr>
 
-<p>Card Number:
+<img class="card" src="images/mc.png" alt="mastercard logo" width="50px">
+<img class="card" src="images/american.png" alt="american express logo" width="40px">
+<img class="card" src="images/visa.png" alt="visa logo" width="70px">
+
+<p class="number">Card Number:
 <input type="text" name="creditcard" maxlength="16" />
 </p>
 
-<p>Expiration MM/YY:
-<input type="text" name="month" maxlength="2" />
-<input type="text" name="year" maxlength="2" />
+<p class="exp">Expiration MM/YY:
+<input class="short" type="text" name="month" maxlength="2" />
+<input class="short" type="text" name="year" maxlength="2" />
 </p>
 
-<p>CVV:
-<input type="text" name="cvv" maxlength="3" />
+<p class="cvv">CVV:
+<input class="short" type="text" name="cvv" maxlength="3" />
 </p>
 
-<input type="submit" value="Submit" />
+<input class="submit" type="submit" value="Submit" />
 
 </form>
 </body>
